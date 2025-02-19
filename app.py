@@ -163,5 +163,5 @@ else:
     pdf.cell(0, 10, f"Relatório gerado em {datetime.now().strftime('%d/%m/%Y')} às {datetime.now().strftime('%H:%M')}", align="C", ln=True)
     pdf.cell(0, 10, "Confidencial - Apenas para uso interno", align="C")
 
-# --- Salva o PDF ---
+
 pdf.output(caminho_relatorio)
